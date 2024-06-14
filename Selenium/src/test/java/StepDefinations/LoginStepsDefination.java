@@ -40,8 +40,8 @@ public class LoginStepsDefination {
 
 	@Then("User is navigated to home page")
 	public void user_is_navigated_to_home_page() {
-		Assert.assertTrue(driver.findElements(By.xpath("//div[@class=\"app_logo\"]")).size()>0,"User is navigated to home page");
-		
+		Assert.assertTrue(driver.findElements(By.xpath("//div[@class=\"app_logo\"]")).size() > 0,
+				"User is navigated to home page");
 	}
 
 	@And("Close the browser")
